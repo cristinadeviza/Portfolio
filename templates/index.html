@@ -16,9 +16,18 @@
     <div class="nav">
 
     </div>
+
     <header class="header">
         <a href="#" class="logo"><span id="logo1">Cristina Deviza</span>
         </a>
+
+        <!-- ????????????? -->
+
+        <!-- Butonul pentru meniul hamburger -->
+        <div class="menu-toggle" id="mobile-menu">
+            <i class='bx bx-menu'></i>
+        </div>
+        <!-- ßßßßßßßßß -->
 
         <nav class="navbar">
             <ul>
@@ -29,6 +38,8 @@
             </ul>
         </nav>
     </header>
+
+
 
     <main>
         <section class="home" id="section1">
@@ -172,6 +183,22 @@
 
         <p class="copyright">© 2024 Cristina | All Rights Reserved</p>
     </footer>
+    <script>
+        const menuToggle = document.getElementById('mobile-menu');
+        const navbar = document.querySelector('.navbar');
+
+        menuToggle.addEventListener('click', () => {
+            navbar.classList.toggle('active');
+
+            // Schimbă iconița între meniu și închidere
+            const icon = menuToggle.querySelector('i');
+            if (navbar.classList.contains('active')) {
+                icon.classList.replace('bx-menu', 'bx-x');
+            } else {
+                icon.classList.replace('bx-x', 'bx-menu');
+            }
+        });
+    </script>
 
 </body>
 

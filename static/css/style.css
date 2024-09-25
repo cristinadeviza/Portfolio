@@ -34,9 +34,15 @@ body {
     display: block;
     background-color: #00246B;
     position: fixed;
-    height: 6rem;
+    height: 3rem;
 
 }
+
+.navbar {
+    transition: all 0.3s ease-in-out;
+}
+
+
 
 .header {
     position: fixed;
@@ -92,6 +98,23 @@ body {
     color: #8AB6F9;
     border-bottom: 3px solid #8AB6F9;
 }
+
+/* ßßßßßßßßßßßßßßßßßßßßßßßßßßßß */
+
+.menu-toggle {
+    display: none;
+    /* Ascunde pe desktop */
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    margin-right: 2rem;
+}
+
+.menu-toggle i {
+    transition: transform 0.3s ease-in-out;
+}
+
+/* ??????????????????????????? */
 
 .home {
     background: white;
@@ -394,7 +417,50 @@ footer ul {
     margin-top: 2rem;
 }
 
+/* Media Query pentru dispozitive mobile */
+@media (max-width: 600px) {
+
+    /* Arată butonul hamburger pe mobile */
+    .menu-toggle {
+        display: block;
+    }
+
+    /* Ascunde meniul de navigare implicit */
+    .navbar {
+        position: absolute;
+        top: 3rem;
+        /* Ajustează în funcție de înălțimea header-ului */
+        left: 0;
+        width: 100%;
+        background-color: #00246B;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Afișează meniul de navigare când este activ */
+    .navbar.active {
+        display: flex;
+    }
+
+    /* Stiluri pentru link-uri în versiunea mobilă */
+    .navbar ul {
+        flex-direction: column;
+    }
+
+    .navbar li {
+        margin: 1.5rem 0;
+    }
+
+    .navbar a {
+        font-size: 1.5rem;
+    }
+}
+
+
 @media screen and (min-width: 600px) {
+
+
     body {
         width: 60rem;
     }
@@ -402,6 +468,11 @@ footer ul {
     .header {
         width: 60rem;
         height: 4rem;
+    }
+
+    .navbar ul {
+        display: flex;
+        flex-direction: row;
     }
 
     .about {
@@ -509,6 +580,7 @@ footer ul {
         width: 100%;
     }
 
+
     .about {
         display: flex;
         flex-direction: row;
@@ -516,6 +588,7 @@ footer ul {
         align-items: center;
         gap: 10em;
         height: 100vh;
+        padding-bottom: 0;
     }
 
     .about-img img {
@@ -526,6 +599,10 @@ footer ul {
             0 0 50px #8AB6F9;
     }
 
+    .about-content {
+        padding-top: 5rem;
+    }
+
     .about-content h2 {
         text-align: left;
         color: black;
@@ -534,14 +611,19 @@ footer ul {
 
     .contact-form {
         height: 100vh;
+
     }
 
     .contact-me {
-        padding-top: 5rem;
+        padding-top: 0;
+    }
+
+    .contact-form h2 {
+        margin-top: 0;
     }
 
 
-    .contact-form form .input-box input,
+    .input-box input,
     .contact-form form textarea {
         width: 100%;
         padding: 1.5em;
@@ -552,13 +634,23 @@ footer ul {
         resize: none;
     }
 
+    /* .contact-form form {
+        padding: 0;
+        margin: 0;
+        
+    } */
 
+    .contact-form form {
+        max-width: 50em;
+        margin: 1rem auto;
+        text-align: center;
+        margin-bottom: 3em;
+        margin-top: 0;
+    }
 
     .img {
         width: 50%;
     }
-
-
 
     .project-content {
         display: flex;
@@ -579,7 +671,6 @@ footer ul {
         align-items: center;
         overflow: hidden;
         background: #8AB6F9;
-
     }
 
     #huddle-img {
@@ -592,13 +683,11 @@ footer ul {
         flex-direction: column;
         justify-content: center;
         margin-top: -1rem;
-
     }
 
     .project-text p {
         width: 46ch;
         font-size: 1.3rem;
-
     }
 
     .project-heading {
@@ -613,7 +702,6 @@ footer ul {
         padding-bottom: 1rem;
         padding-top: 1rem;
     }
-
 }
 
 @media screen and (min-width:1440px) {
@@ -629,8 +717,6 @@ footer ul {
         font-size: 12rem;
         margin: 20px;
         color: #00246B;
-
-
     }
 
     .home-content p,
@@ -647,7 +733,6 @@ footer ul {
     .contact-me {
         padding-top: 8rem;
     }
-
 
     .footer {
         width: 100%;
