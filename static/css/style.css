@@ -4,6 +4,7 @@
     font-style: normal;
 }
 
+
 html {
     scroll-behavior: smooth;
 }
@@ -75,17 +76,13 @@ body {
 }
 
 .logo {
-    font-family: "Sevillana", cursive;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 22px;
     color: white;
     font-weight: 500;
     transition: 0.3s ease;
     margin-left: 2rem;
 }
-
-/* #logo1 {
-    font-family: "Sevillana", cursive;
-} */
 
 .logo:hover {
     color: #8AB6F9;
@@ -99,8 +96,6 @@ body {
     border-bottom: 3px solid #8AB6F9;
 }
 
-/* ßßßßßßßßßßßßßßßßßßßßßßßßßßßß */
-
 .menu-toggle {
     display: none;
     /* Ascunde pe desktop */
@@ -113,8 +108,6 @@ body {
 .menu-toggle i {
     transition: transform 0.3s ease-in-out;
 }
-
-/* ??????????????????????????? */
 
 .home {
     background: white;
@@ -699,8 +692,8 @@ footer ul {
     }
 
     .footer {
-        padding-bottom: 1rem;
-        padding-top: 1rem;
+        margin-top: 8rem;
+        height: 8rem;
     }
 }
 
@@ -709,12 +702,12 @@ footer ul {
         width: 100%;
     }
 
-    /* img {
+    img {
         width: 70%;
-} ßßßß????????????????????????? */
+    }
 
     .icons {
-        font-size: 12rem;
+        font-size: 10rem;
         margin: 20px;
         color: #00246B;
     }
