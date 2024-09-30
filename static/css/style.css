@@ -16,6 +16,7 @@ html {
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
     list-style: none;
+    font-size: 62.5%;
 }
 
 /* Mobile Version */
@@ -26,12 +27,16 @@ p {
 
 body {
     margin: 0 auto;
-    width: 37.5rem;
+    /* width: 37.5rem; */
+}
+
+.hidden {
+    display: none;
 }
 
 
 .nav {
-    width: 100vw;
+    width: 10vw;
     display: block;
     background-color: #00246B;
     position: fixed;
@@ -47,8 +52,8 @@ body {
 
 .header {
     position: fixed;
-    width: 37.5rem;
-    height: 3rem;
+    width: 100%;
+    height: 4rem;
     background: #00246B;
     backdrop-filter: blur(10px);
     display: flex;
@@ -77,11 +82,12 @@ body {
 
 .logo {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 22px;
+    font-size: 2.2rem;
     color: white;
     font-weight: 500;
     transition: 0.3s ease;
     margin-left: 2rem;
+    padding-bottom: 0.5rem;
 }
 
 .logo:hover {
@@ -114,7 +120,7 @@ body {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    gap: 7em;
+    gap: 7rem;
     padding-top: 2rem;
 
 }
@@ -138,20 +144,20 @@ body {
 }
 
 .btn-box {
-    justify-content: center;
+    justify-content: space-around;
     display: flex;
     gap: 2em;
     padding-bottom: 2rem;
 }
 
 .btn-1 {
-    min-width: 30px;
-    padding: 15px 28px;
+    min-width: 2rem;
+    padding: 1.5rem 2.8rem;
     background-color: black;
     color: white;
     border: 2px solid transparent;
     border-radius: 8px;
-    font-size: 18px;
+    font-size: 1.5rem;
     letter-spacing: 1px;
     font-weight: 600;
     transition: 0.3s ease;
@@ -166,13 +172,13 @@ body {
 }
 
 .btn-2 {
-
-    padding: 15px 28px;
+    min-width: 2rem;
+    padding: 1.5rem 2.8rem;
     background-color: #8AB6F9;
     color: white;
     border: 2px solid black;
     border-radius: 8px;
-    font-size: 18px;
+    font-size: 1.5rem;
     letter-spacing: 1px;
     font-weight: 600;
     transition: 0.3s ease;
@@ -205,9 +211,13 @@ h1 .name {
     justify-content: center;
     align-items: center;
     padding: 3rem 1.2rem;
-    gap: 10em;
+    gap: 10rem;
     background: #CADCFC;
+    width: 100%;
+    position: relative;
+    /* left: -10rem; */
 }
+
 
 .about-img img {
     position: relative;
@@ -231,7 +241,10 @@ h1 .name {
 }
 
 .icons {
-    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 6rem;
     margin: 20px;
     color: #00246B;
     margin-top: 2rem;
@@ -306,14 +319,14 @@ h1 .name {
 .project-heading {
 
     font-size: 3rem;
-    padding-top: 8rem;
+    padding-top: 4rem;
 }
 
 .contact-form h2 {
     text-align: center;
     margin-top: 3rem;
     margin-bottom: 1em;
-    font-size: 36px;
+    font-size: 3rem;
 
 }
 
@@ -322,22 +335,27 @@ h1 .name {
 }
 
 .contact-form form {
-    max-width: 50em;
+    max-width: 50rem;
     margin: 1rem auto;
     text-align: center;
     margin-bottom: 3em;
 
 }
 
+
+
+
+
 .contact-form form .input-box input,
 .contact-form form textarea {
     width: 80%;
     padding: 1.5em;
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: black;
     background: rgb(243, 240, 240);
     margin: 1rem 0;
     resize: none;
+    border-radius: 10px;
 }
 
 .contact-form .btn-1 {
@@ -354,8 +372,9 @@ h1 .name {
     position: relative;
     bottom: 0;
     width: 100%;
-    padding: 20px 0;
+    padding: 2rem 0;
     background-color: #000c24;
+    margin-top: 2rem;
 }
 
 .footer .social {
@@ -396,6 +415,7 @@ footer ul {
     color: white;
     border-bottom: 3px solid transparent;
     transition: 0.3s ease;
+    font-size: 1rem;
 }
 
 .footer ul li {
@@ -410,8 +430,10 @@ footer ul {
     margin-top: 2rem;
 }
 
+
+
 /* Media Query pentru dispozitive mobile */
-@media (max-width: 600px) {
+@media screen and (max-width: 768px) {
 
     /* Arată butonul hamburger pe mobile */
     .menu-toggle {
@@ -429,6 +451,7 @@ footer ul {
         display: none;
         flex-direction: column;
         align-items: center;
+
     }
 
     /* Afișează meniul de navigare când este activ */
@@ -451,15 +474,16 @@ footer ul {
 }
 
 
-@media screen and (min-width: 600px) {
 
+@media screen and (min-width: 768px) {
 
+    /*  
     body {
-        width: 60rem;
-    }
+        width: 76.8rem;
+    } */
 
     .header {
-        width: 60rem;
+        width: 100%;
         height: 4rem;
     }
 
@@ -470,14 +494,22 @@ footer ul {
 
     .about {
         padding: 3rem 1.2rem 4rem 1.2rem;
-        gap: 10em;
+        gap: 10rem;
         background: #CADCFC;
     }
 
+    .home-content p {
+        font-size: 1.4rem;
+        margin: 2.5rem 0 3rem 0;
+        width: 70ch;
+    }
+
+
     .about-content p {
-        width: 80ch;
-        font-size: 1.2rem;
-        margin: 2.5rem 0 5rem;
+        color: black;
+        width: 70ch;
+        font-size: 1.4rem;
+        margin: 2.5rem 0 3rem 0;
     }
 
     .btn-3 {
@@ -486,6 +518,7 @@ footer ul {
 
     .project-text p {
         width: 80ch;
+        font-size: 1.4rem;
     }
 
     .project-heading {
@@ -495,17 +528,19 @@ footer ul {
 }
 
 @media screen and (min-width:1080px) {
-    body {
+
+    /* body {
         width: 108rem;
     }
-
+  */
     .header {
-        width: 108rem;
+        width: 100%;
         padding: 2rem 12rem;
         justify-content: space-between;
         align-items: center;
         z-index: 100;
         height: 6rem;
+
     }
 
     .navbar ul {
@@ -515,13 +550,13 @@ footer ul {
 
 
     /* .navbar a {
-
+ 
         font-size: 1.5rem;
         margin: 0 20px;
     } */
 
     .logo {
-        font-size: 2rem;
+        font-size: 4rem;
         color: white;
         font-weight: 600;
         transition: 0.3s ease;
@@ -531,33 +566,43 @@ footer ul {
         font-family: monospace;
     }
 
+    .img-box {
+        width: 65%;
+    }
+
+    .img-box img {
+        width: 100%;
+        margin-left: 6rem;
+    }
+
     .home {
         min-height: 100vh;
         display: flex;
         flex-direction: row;
         align-items: center;
-        gap: 7em;
-        margin-left: 5rem;
+        gap: 7rem;
+        margin: 0 5rem;
     }
 
     .home-content {
-        max-width: 800px;
-        width: 50%;
+        /* max-width: 800px; */
+        width: 35%;
         margin: 0 auto;
     }
 
     .home-content h3 {
-        font-size: 42px;
+        font-size: 4.2rem;
     }
 
     .home-content h1 {
-        font-size: 62px;
+        font-size: 6.2rem;
         line-height: 1.2;
     }
 
     .home-content p {
-        font-size: 1.2rem;
+        font-size: 2.2rem;
         padding-top: 1rem;
+        width: 40ch;
 
     }
 
@@ -573,38 +618,66 @@ footer ul {
         width: 100%;
     }
 
+    .icons {
+        font-size: 11rem;
+
+    }
 
     .about {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        gap: 10em;
+        gap: 10rem;
         height: 100vh;
-        padding-bottom: 0;
+        padding: 40rem 0 35rem 0;
+
+
+        /* margin-left: 9rem; */
+    }
+
+    .about-img {
+        width: 31%;
+
     }
 
     .about-img img {
-        position: relative;
-        width: 550px;
+        /* margin: 20rem 0; */
+        /* position: relative; */
+        width: 100%;
         border-radius: 50%;
         box-shadow: 0 0 25px #8AB6F9,
             0 0 50px #8AB6F9;
+
     }
 
     .about-content {
-        padding-top: 5rem;
+        width: 50%;
+
+
     }
 
     .about-content h2 {
         text-align: left;
         color: black;
-        font-size: 42px;
+        font-size: 4.2rem;
     }
 
+    .about-content p {
+        font-size: 2rem;
+        width: 45ch;
+    }
+
+    /* .contact-form {
+        height: 100vh;
+ 
+    } */
     .contact-form {
         height: 100vh;
-
+        /* padding-top: 5rem; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .contact-me {
@@ -618,26 +691,27 @@ footer ul {
 
     .input-box input,
     .contact-form form textarea {
-        width: 100%;
-        padding: 1.5em;
-        font-size: 18px;
+        width: 110%;
+        padding: 1.5rem;
+        font-size: 1.8rem;
         color: black;
         background: rgb(243, 240, 240);
-        margin: 1rem 0;
+        margin: 2rem -2.5rem 3rem -2.5rem;
         resize: none;
     }
+
 
     /* .contact-form form {
         padding: 0;
         margin: 0;
-        
+       
     } */
 
     .contact-form form {
-        max-width: 50em;
+        max-width: 50rem;
         margin: 1rem auto;
         text-align: center;
-        margin-bottom: 3em;
+        margin-bottom: 3rem;
         margin-top: 0;
     }
 
@@ -649,11 +723,12 @@ footer ul {
         display: flex;
         align-items: center;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: center;
         gap: 4rem;
         padding: 1rem 0;
         background: #8AB6F9;
         border-radius: 5px;
+
     }
 
     .project {
@@ -664,23 +739,37 @@ footer ul {
         align-items: center;
         overflow: hidden;
         background: #8AB6F9;
+        width: 100%;
+        position: relative;
+        padding-top: 2rem;
+
     }
 
+
     #huddle-img {
-        width: 90%;
+        width: 100%;
+
     }
 
     .project-text {
+        width: 50%;
         display: flex;
         align-items: center;
         flex-direction: column;
         justify-content: center;
         margin-top: -1rem;
+        margin-left: -5rem;
+    }
+
+    .project .img {
+        width: 40%;
+        padding-bottom: 7rem;
+        margin-left: -2rem;
     }
 
     .project-text p {
-        width: 46ch;
-        font-size: 1.3rem;
+        width: 42ch;
+        font-size: 2rem;
     }
 
     .project-heading {
@@ -691,45 +780,221 @@ footer ul {
         top: -3rem;
     }
 
+    .project-btn {
+        padding-top: 3rem;
+    }
+
+    .contact-form {
+        padding-top: 5rem;
+    }
+
+
+
     .footer {
-        margin-top: 8rem;
-        height: 8rem;
+
+        width: 100%;
+        height: 13rem;
+        position: relative;
+
+    }
+
+    .footer ul li a {
+        color: white;
+        border-bottom: 3px solid transparent;
+        transition: 0.3s ease;
+        font-size: 1.5rem;
     }
 }
 
 @media screen and (min-width:1440px) {
-    body {
-        width: 100%;
+    .header {
+
+        height: 8rem;
+
     }
 
-    img {
-        width: 70%;
+
+    .home {
+
+        margin: 0 10rem;
+    }
+
+
+    .about-content p {
+        font-size: 2rem;
+        width: 60ch;
+    }
+
+}
+
+@media screen and (min-width: 2160px) {
+
+    body,
+    .header {
+        width: 216rem;
+    }
+
+    .img-box {
+        width: 55%;
+    }
+
+    .img-box img {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .home {
+        margin: 0 25rem;
+
+    }
+
+    .home-content {
+        /* max-width: 800px; */
+        width: 50%;
+        margin: 0 auto;
+        padding-left: 8rem;
+    }
+
+    .home-content h3 {
+        font-size: 4.2rem;
+    }
+
+    .home-content h1 {
+        font-size: 6.2rem;
+        line-height: 1.2;
+    }
+
+    .home-content p {
+        font-size: 2.4rem;
+        padding-top: 1rem;
+        width: 45ch;
+
     }
 
     .icons {
-        font-size: 10rem;
-        margin: 20px;
-        color: #00246B;
+
+        margin-left: -22rem;
+
     }
 
-    .home-content p,
-    .about-content p,
-    .project-content p {
-        font-size: 22px;
+    .icons i {
+        font-size: 13rem;
+
     }
 
-    .header {
-        width: 100%;
-        left: 0;
+    .about {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+        height: 100vh;
+
+        /* padding: 40rem 0 35rem 0; */
+
+
+        /* margin-left: 9rem; */
     }
 
-    .contact-me {
-        padding-top: 8rem;
+    .about-img {
+        width: 45%;
+        padding: 16rem;
+        margin-bottom: 4rem;
+
     }
 
-    .footer {
-        width: 100%;
-        left: 0;
-        right: 0;
+
+
+    .about-content p {
+        font-size: 2.4rem;
+        width: 60ch;
     }
+
+
+    .project-content {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        gap: 4rem;
+        padding: 1rem 0;
+        background: #8AB6F9;
+        border-radius: 5px;
+
+    }
+
+
+
+
+
+    .project-text {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: -1rem;
+        margin-left: -5rem;
+    }
+
+    .project .img {
+        width: 50%;
+        padding-bottom: 7rem;
+        margin-left: -2rem;
+    }
+
+    .project-text p {
+        width: 50ch;
+        font-size: 2.4rem;
+    }
+
+    .project-heading {
+
+        font-size: 4rem;
+
+    }
+
+    .project-btn .btn {
+        width: 12rem;
+        height: 4rem;
+    }
+
+    .project-btn {
+        padding-top: 5rem;
+        gap: 6rem;
+
+    }
+
+    .contact-form h2 {
+        font-size: 4rem;
+    }
+
+    .contact-form textarea {
+        width: 30rem;
+    }
+
+    .input-box input,
+    .contact-form form textarea {
+        width: 110%;
+        padding: 1.5rem;
+        font-size: 1.8rem;
+        color: black;
+        background: rgb(243, 240, 240);
+        margin: 4rem -3rem 3rem -3rem;
+        resize: none;
+    }
+
+    .input-box input {
+        margin: 2rem;
+    }
+
+    #input1,
+    #input2,
+    #input3,
+    #input4 {
+        margin-bottom: 2rem;
+    }
+
+
+
 }
