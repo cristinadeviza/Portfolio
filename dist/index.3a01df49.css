@@ -190,6 +190,7 @@ h1 {
 h1 .name {
   color: #8ab6f9;
   font-family: Georgia, Times New Roman, Times, serif;
+  font-size: 2.5rem;
 }
 
 .about {

@@ -1,4 +1,4 @@
-5905
+5900
 86C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\nth-check\lib\esm\compile.d.ts133721900225539371 0
 76C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\msgpackr-extract\bin133721900214762998 1
 97C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\entities\lib\generated\decode-data-xml.js133721900216627463 0
@@ -37,11 +37,9 @@
 78C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\domelementtype\lib\esm133721900219495916 1
 94C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\utility-types\dist\mapped-types.js.map133721900220383806 0
 90C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\@swc\core-win32-x64-msvc\README.md133721900218534512 0
-50C:\Users\deviz\OneDrive\Desktop\Portofoliu\main.py133721893996048486 0
 69C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\clone\LICENSE133721900214666613 0
 55C:\Users\deviz\OneDrive\Desktop\Portofoliu\package.json133721901223615015 0
 94C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\@parcel\core\test\fixtures\module-b.js133721900236010190 0
-49C:\Users\deviz\OneDrive\Desktop\Portofoliu\static133721902408652179 1
 106C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\csso\node_modules\css-tree\cjs\parser\sequence.cjs133721900236428748 0
 97C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\@babel\highlight\node_modules\chalk\types133721900217872251 1
 92C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\@parcel\transformer-babel\lib\jsx.js133721900222229507 0
@@ -91,7 +89,6 @@
 99C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\lmdb\dependencies\lz4\lib\lz4frame_static.h133721900237412570 0
 102C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\csso\node_modules\css-tree\cjs\utils\ident.cjs133721900230933261 0
 73C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\@trysound\sax\lib133721900212042955 1
-52C:\Users\deviz\OneDrive\Desktop\Portofoliu\templates133721901789484629 1
 106C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\csso\node_modules\css-tree\cjs\syntax\node\Raw.cjs133721900235909849 0
 87C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\caniuse-lite\data\regions\IE.js133721900248260539 0
 93C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\@parcel\source-map\dist\utils.js.flow133721900215011988 0
@@ -102,7 +99,6 @@
 94C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\css-tree\lib\syntax\atrule\supports.js133721900243316027 0
 90C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\source-map-js\lib\source-node.d.ts133721900224372853 0
 90C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\source-map-js\lib\binary-search.js133721900216134699 0
-56C:\Users\deviz\OneDrive\Desktop\Portofoliu\static\images133721903042183706 1
 107C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\csso\node_modules\css-tree\cjs\convertor\create.cjs133721900224971967 0
 112C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\csso\node_modules\css-tree\lib\syntax\node\Identifier.js133721900240820940 0
 74C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\globals\index.d.ts133721900217405666 0
@@ -1269,7 +1265,7 @@
 108C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\@swc\helpers\_\_class_private_field_get\package.json133721900230124376 0
 99C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\caniuse-lite\data\features\tabindex-attr.js133721900254922557 0
 84C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\source-map\lib\base64-vlq.js133721900217305948 0
-67C:\Users\deviz\OneDrive\Desktop\Portofoliu\dist\huddle.bfe450d5.png133721903340131378 0
+67C:\Users\deviz\OneDrive\Desktop\Portofoliu\dist\huddle.bfe450d5.png133721914014414485 0
 81C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\ordered-binary\index.d.ts133721900222239538 0
 84C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\escape-string-regexp\license133721900213164657 0
 84C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\semver\ranges\min-version.js133721900227128337 0
@@ -2937,7 +2933,7 @@
 79C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\@parcel\transformer-raw133721900214802988 1
 106C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\csso\node_modules\css-tree\cjs\tokenizer\names.cjs133721900234530832 0
 117C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\csso\node_modules\css-tree\cjs\tokenizer\OffsetToLocation.cjs133721900234870077 0
-52C:\Users\deviz\OneDrive\Desktop\Portofoliu\style.css133721842493925563 0
+52C:\Users\deviz\OneDrive\Desktop\Portofoliu\style.css133721915921336377 0
 131C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\css-select\node_modules\entities\lib\esm\generated\decode-data-xml.d.ts.map133721900227571742 0
 112C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\csso\node_modules\css-tree\cjs\tokenizer\TokenStream.cjs133721900237336258 0
 99C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\caniuse-lite\data\features\selection-api.js133721900254026800 0
@@ -4534,7 +4530,7 @@
 84C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\@parcel\logger\lib\Logger.js133721900212730807 0
 109C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\@swc\helpers\_\_class_private_method_set\package.json133721900231864959 0
 109C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\@swc\helpers\_\_class_private_method_get\package.json133721900231423984 0
-70C:\Users\deviz\OneDrive\Desktop\Portofoliu\dist\index.3a01df49.css.map133721903341372849 0
+70C:\Users\deviz\OneDrive\Desktop\Portofoliu\dist\index.3a01df49.css.map133721915683511970 0
 115C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\@parcel\optimizer-svgo\node_modules\css-select\lib\types.js133721900222249471 0
 111C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\@swc\helpers\_\_class_private_field_update\package.json133721900231173788 0
 108C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\@swc\helpers\_\_class_private_field_set\package.json133721900230965293 0
@@ -5863,7 +5859,7 @@
 107C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\@babel\highlight\node_modules\ansi-styles\readme.md133721900214707809 0
 98C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\@babel\helper-validator-identifier\LICENSE133721900211175618 0
 103C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\@babel\helper-validator-identifier\package.json133721900219505923 0
-64C:\Users\deviz\OneDrive\Desktop\Portofoliu\dist\img.7691eceb.jpg133721903341691317 0
+64C:\Users\deviz\OneDrive\Desktop\Portofoliu\dist\img.7691eceb.jpg133721914014929636 0
 100C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\@babel\helper-validator-identifier\README.md133721900212077659 0
 98C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\@babel\helper-validator-identifier\scripts133721900220108285 1
 108C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\@babel\helper-validator-identifier\lib\identifier.js133721900213333938 0
@@ -5896,11 +5892,10 @@
 65C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\.bin\svgo133721900258389218 0
 69C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\.bin\svgo.cmd133721900258389218 0
 83C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\.bin\update-browserslist-db133721900258389218 0
-46C:\Users\deviz\OneDrive\Desktop\Portofoliu\css133721902384824028 1
 53C:\Users\deviz\OneDrive\Desktop\Portofoliu\huddle.png133695000270161938 0
-47C:\Users\deviz\OneDrive\Desktop\Portofoliu\dist133721903342553139 1
-65C:\Users\deviz\OneDrive\Desktop\Portofoliu\dist\img.a89a18cb.webp133721903340251540 0
-66C:\Users\deviz\OneDrive\Desktop\Portofoliu\dist\index.3a01df49.css133721903341322746 0
-70C:\Users\deviz\OneDrive\Desktop\Portofoliu\dist\Portofoliu.3464ddca.js133721903341534216 0
-74C:\Users\deviz\OneDrive\Desktop\Portofoliu\dist\Portofoliu.3464ddca.js.map133721903341634282 0
-58C:\Users\deviz\OneDrive\Desktop\Portofoliu\dist\index.html133721903342543112 0
+47C:\Users\deviz\OneDrive\Desktop\Portofoliu\dist133721915683521946 1
+58C:\Users\deviz\OneDrive\Desktop\Portofoliu\dist\index.html133721904967001286 0
+65C:\Users\deviz\OneDrive\Desktop\Portofoliu\dist\img.a89a18cb.webp133721914014502108 0
+70C:\Users\deviz\OneDrive\Desktop\Portofoliu\dist\Portofoliu.3464ddca.js133721914014632389 0
+74C:\Users\deviz\OneDrive\Desktop\Portofoliu\dist\Portofoliu.3464ddca.js.map133721914014741402 0
+66C:\Users\deviz\OneDrive\Desktop\Portofoliu\dist\index.3a01df49.css133721915683481179 0
