@@ -27,13 +27,11 @@ p {
 
 body {
     margin: 0 auto;
-    /* width: 37.5rem; */
 }
 
 .hidden {
     display: none;
 }
-
 
 .nav {
     width: 10vw;
@@ -41,14 +39,11 @@ body {
     background-color: #00246B;
     position: fixed;
     height: 3rem;
-
 }
 
 .navbar {
     transition: all 0.3s ease-in-out;
 }
-
-
 
 .header {
     position: fixed;
@@ -66,7 +61,6 @@ body {
 .navbar li {
     display: flex;
     flex-direction: column;
-
 }
 
 .navbar a {
@@ -122,14 +116,11 @@ body {
     align-items: center;
     gap: 7rem;
     padding-top: 2rem;
-
 }
 
 .home-content {
     margin: 2rem;
 }
-
-
 
 .home-content h3 {
     font-size: 2.5rem;
@@ -164,7 +155,6 @@ body {
     font-weight: 600;
     transition: 0.3s ease;
     cursor: pointer;
-
 }
 
 .btn-1:hover {
@@ -205,7 +195,7 @@ h1 {
 h1 .name {
     color: #8AB6F9;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 .about {
@@ -218,9 +208,7 @@ h1 .name {
     background: #CADCFC;
     width: 100%;
     position: relative;
-    /* left: -10rem; */
 }
-
 
 .about-img img {
     position: relative;
@@ -234,7 +222,6 @@ h1 .name {
     color: black;
     font-size: 2.5rem;
 }
-
 
 .about-content p {
     color: black;
@@ -251,7 +238,6 @@ h1 .name {
     margin: 20px;
     color: #00246B;
     margin-top: 2rem;
-
 }
 
 #huddle-img {
@@ -259,7 +245,6 @@ h1 .name {
     padding: 1.5rem 1.5rem 0 1.5rem;
     border-radius: 50px;
 }
-
 
 .project-content {
     display: flex;
@@ -286,8 +271,6 @@ h1 .name {
     flex-direction: column;
     justify-content: center;
     margin-top: -1rem;
-
-
 }
 
 .project-text p {
@@ -330,7 +313,6 @@ h1 .name {
     margin-top: 3rem;
     margin-bottom: 1em;
     font-size: 3rem;
-
 }
 
 .contact-me {
@@ -342,12 +324,7 @@ h1 .name {
     margin: 1rem auto;
     text-align: center;
     margin-bottom: 3em;
-
 }
-
-
-
-
 
 .contact-form form .input-box input,
 .contact-form form textarea {
@@ -433,8 +410,6 @@ footer ul {
     margin-top: 2rem;
 }
 
-
-
 /* Media Query pentru dispozitive mobile */
 @media screen and (max-width: 768px) {
 
@@ -479,12 +454,6 @@ footer ul {
 
 
 @media screen and (min-width: 768px) {
-
-    /*  
-    body {
-        width: 76.8rem;
-    } */
-
     .header {
         width: 100%;
         height: 4rem;
@@ -506,7 +475,6 @@ footer ul {
         margin: 2.5rem 0 3rem 0;
         width: 70ch;
     }
-
 
     .about-content p {
         color: black;
@@ -543,20 +511,17 @@ footer ul {
         align-items: center;
         z-index: 100;
         height: 6rem;
+    }
 
+    h1 .name {
+
+        font-size: 5rem;
     }
 
     .navbar ul {
         display: flex;
         flex-direction: row;
     }
-
-
-    /* .navbar a {
- 
-        font-size: 1.5rem;
-        margin: 0 20px;
-    } */
 
     .logo {
         font-size: 4rem;
@@ -570,27 +535,27 @@ footer ul {
     }
 
     .img-box {
-        width: 65%;
+        width: 50%;
     }
 
     .img-box img {
         width: 100%;
-        margin-left: 6rem;
+        /* margin-left: 6rem; */
     }
 
     .home {
         min-height: 100vh;
-        display: flex;
         flex-direction: row;
         align-items: center;
         gap: 7rem;
-        margin: 0 5rem;
+        width: 100%;
+        margin-top: 4rem;
     }
 
     .home-content {
-        /* max-width: 800px; */
-        width: 35%;
-        margin: 0 auto;
+        width: 41%;
+
+        padding-left: 3rem;
     }
 
     .home-content h3 {
@@ -598,14 +563,14 @@ footer ul {
     }
 
     .home-content h1 {
-        font-size: 6.2rem;
+        font-size: 5rem;
         line-height: 1.2;
     }
 
     .home-content p {
         font-size: 2.2rem;
         padding-top: 1rem;
-        width: 40ch;
+        width: 38ch;
 
     }
 
@@ -616,14 +581,12 @@ footer ul {
         padding-top: 2rem;
     }
 
-
     img {
         width: 100%;
     }
 
     .icons {
         font-size: 11rem;
-
     }
 
     .about {
@@ -634,30 +597,22 @@ footer ul {
         gap: 10rem;
         height: 100vh;
         padding: 40rem 0 35rem 0;
-
-
-        /* margin-left: 9rem; */
+        width: 100%;
     }
 
     .about-img {
-        width: 31%;
-
+        width: 34%;
     }
 
     .about-img img {
-        /* margin: 20rem 0; */
-        /* position: relative; */
         width: 100%;
         border-radius: 50%;
         box-shadow: 0 0 25px #8AB6F9,
             0 0 50px #8AB6F9;
-
     }
 
     .about-content {
         width: 50%;
-
-
     }
 
     .about-content h2 {
@@ -667,20 +622,16 @@ footer ul {
     }
 
     .about-content p {
-        font-size: 2rem;
+        font-size: 2.2rem;
         width: 45ch;
     }
 
-    /* .contact-form {
-        height: 100vh;
- 
-    } */
     .contact-form {
-        height: 100vh;
-        /* padding-top: 5rem; */
+        /* height: 100vh; */
         display: flex;
         flex-direction: column;
         justify-content: center;
+        width: 100%;
     }
 
     .contact-me {
@@ -690,7 +641,6 @@ footer ul {
     .contact-form h2 {
         margin-top: 0;
     }
-
 
     .input-box input,
     .contact-form form textarea {
@@ -702,13 +652,6 @@ footer ul {
         margin: 2rem -2.5rem 3rem -2.5rem;
         resize: none;
     }
-
-
-    /* .contact-form form {
-        padding: 0;
-        margin: 0;
-       
-    } */
 
     .contact-form form {
         max-width: 50rem;
@@ -731,7 +674,6 @@ footer ul {
         padding: 1rem 0;
         background: #8AB6F9;
         border-radius: 5px;
-
     }
 
     .project {
@@ -745,13 +687,10 @@ footer ul {
         width: 100%;
         position: relative;
         padding-top: 2rem;
-
     }
-
 
     #huddle-img {
         width: 100%;
-
     }
 
     .project-text {
@@ -771,12 +710,11 @@ footer ul {
     }
 
     .project-text p {
-        width: 42ch;
-        font-size: 2rem;
+        width: 40ch;
+        font-size: 2.2rem;
     }
 
     .project-heading {
-
         font-size: 3rem;
         padding-top: 10rem;
         position: relative;
@@ -787,18 +725,21 @@ footer ul {
         padding-top: 3rem;
     }
 
+    #input1,
+    #input2,
+    #input3,
+    #input4 {
+        margin-bottom: 1rem;
+    }
+
     .contact-form {
         padding-top: 5rem;
     }
 
-
-
     .footer {
-
         width: 100%;
         height: 13rem;
         position: relative;
-
     }
 
     .footer ul li a {
@@ -811,15 +752,7 @@ footer ul {
 
 @media screen and (min-width:1440px) {
     .header {
-
         height: 8rem;
-
-    }
-
-
-    .home {
-
-        margin: 0 10rem;
     }
 
 
@@ -827,7 +760,6 @@ footer ul {
         font-size: 2rem;
         width: 60ch;
     }
-
 }
 
 @media screen and (min-width: 2160px) {
@@ -846,13 +778,9 @@ footer ul {
         margin-left: 0;
     }
 
-    .home {
-        margin: 0 25rem;
 
-    }
 
     .home-content {
-        /* max-width: 800px; */
         width: 50%;
         margin: 0 auto;
         padding-left: 8rem;
@@ -871,18 +799,14 @@ footer ul {
         font-size: 2.4rem;
         padding-top: 1rem;
         width: 45ch;
-
     }
 
     .icons {
-
         margin-left: -22rem;
-
     }
 
     .icons i {
         font-size: 13rem;
-
     }
 
     .about {
@@ -892,27 +816,18 @@ footer ul {
         align-items: center;
         gap: 0;
         height: 100vh;
-
-        /* padding: 40rem 0 35rem 0; */
-
-
-        /* margin-left: 9rem; */
     }
 
     .about-img {
         width: 45%;
         padding: 16rem;
         margin-bottom: 4rem;
-
     }
-
-
 
     .about-content p {
         font-size: 2.4rem;
         width: 60ch;
     }
-
 
     .project-content {
         display: flex;
@@ -923,12 +838,7 @@ footer ul {
         padding: 1rem 0;
         background: #8AB6F9;
         border-radius: 5px;
-
     }
-
-
-
-
 
     .project-text {
         width: 50%;
@@ -952,9 +862,7 @@ footer ul {
     }
 
     .project-heading {
-
         font-size: 4rem;
-
     }
 
     .project-btn .btn {
@@ -965,7 +873,6 @@ footer ul {
     .project-btn {
         padding-top: 5rem;
         gap: 6rem;
-
     }
 
     .contact-form h2 {
@@ -997,7 +904,4 @@ footer ul {
     #input4 {
         margin-bottom: 2rem;
     }
-
-
-
 }

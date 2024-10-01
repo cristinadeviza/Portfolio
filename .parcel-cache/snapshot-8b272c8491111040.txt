@@ -2933,7 +2933,7 @@
 79C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\@parcel\transformer-raw133721900214802988 1
 106C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\csso\node_modules\css-tree\cjs\tokenizer\names.cjs133721900234530832 0
 117C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\csso\node_modules\css-tree\cjs\tokenizer\OffsetToLocation.cjs133721900234870077 0
-52C:\Users\deviz\OneDrive\Desktop\Portofoliu\style.css133721915921336377 0
+52C:\Users\deviz\OneDrive\Desktop\Portofoliu\style.css133721929076204758 0
 131C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\css-select\node_modules\entities\lib\esm\generated\decode-data-xml.d.ts.map133721900227571742 0
 112C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\csso\node_modules\css-tree\cjs\tokenizer\TokenStream.cjs133721900237336258 0
 99C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\caniuse-lite\data\features\selection-api.js133721900254026800 0
@@ -4530,7 +4530,7 @@
 84C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\@parcel\logger\lib\Logger.js133721900212730807 0
 109C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\@swc\helpers\_\_class_private_method_set\package.json133721900231864959 0
 109C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\@swc\helpers\_\_class_private_method_get\package.json133721900231423984 0
-70C:\Users\deviz\OneDrive\Desktop\Portofoliu\dist\index.3a01df49.css.map133721915683511970 0
+70C:\Users\deviz\OneDrive\Desktop\Portofoliu\dist\index.3a01df49.css.map133721929076539903 0
 115C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\@parcel\optimizer-svgo\node_modules\css-select\lib\types.js133721900222249471 0
 111C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\@swc\helpers\_\_class_private_field_update\package.json133721900231173788 0
 108C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\@swc\helpers\_\_class_private_field_set\package.json133721900230965293 0
@@ -5893,9 +5893,9 @@
 69C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\.bin\svgo.cmd133721900258389218 0
 83C:\Users\deviz\OneDrive\Desktop\Portofoliu\node_modules\.bin\update-browserslist-db133721900258389218 0
 53C:\Users\deviz\OneDrive\Desktop\Portofoliu\huddle.png133695000270161938 0
-47C:\Users\deviz\OneDrive\Desktop\Portofoliu\dist133721915683521946 1
+47C:\Users\deviz\OneDrive\Desktop\Portofoliu\dist133721929076549993 1
 58C:\Users\deviz\OneDrive\Desktop\Portofoliu\dist\index.html133721904967001286 0
 65C:\Users\deviz\OneDrive\Desktop\Portofoliu\dist\img.a89a18cb.webp133721914014502108 0
 70C:\Users\deviz\OneDrive\Desktop\Portofoliu\dist\Portofoliu.3464ddca.js133721914014632389 0
 74C:\Users\deviz\OneDrive\Desktop\Portofoliu\dist\Portofoliu.3464ddca.js.map133721914014741402 0
-66C:\Users\deviz\OneDrive\Desktop\Portofoliu\dist\index.3a01df49.css133721915683481179 0
+66C:\Users\deviz\OneDrive\Desktop\Portofoliu\dist\index.3a01df49.css133721929076490556 0
