@@ -323,7 +323,7 @@ h1 .name {
     max-width: 50rem;
     margin: 1rem auto;
     text-align: center;
-    margin-bottom: 3em;
+    /* margin-bottom: 3em; */
 }
 
 .contact-form form .input-box input,
@@ -629,6 +629,7 @@ footer ul {
     .contact-form {
         /* height: 100vh; */
         display: flex;
+        padding-top: 5rem;
         flex-direction: column;
         justify-content: center;
         width: 100%;
@@ -639,7 +640,7 @@ footer ul {
     }
 
     .contact-form h2 {
-        margin-top: 0;
+        margin-top: 8rem;
     }
 
     .input-box input,
@@ -657,8 +658,7 @@ footer ul {
         max-width: 50rem;
         margin: 1rem auto;
         text-align: center;
-        margin-bottom: 3rem;
-        margin-top: 0;
+
     }
 
     .img {
@@ -732,11 +732,10 @@ footer ul {
         margin-bottom: 1rem;
     }
 
-    .contact-form {
-        padding-top: 5rem;
-    }
+
 
     .footer {
+        margin-top: 16rem;
         width: 100%;
         height: 13rem;
         position: relative;
@@ -760,6 +759,49 @@ footer ul {
         font-size: 2rem;
         width: 60ch;
     }
+
+    .img-box {
+        width: 50%;
+    }
+
+    .img-box img {
+        width: 100%;
+        /* margin-left: 6rem; */
+    }
+
+    .home {
+        min-height: 100vh;
+        flex-direction: row;
+        align-items: center;
+        gap: 7rem;
+        width: 100%;
+        margin-top: 4rem;
+    }
+
+    .home-content {
+        width: 41%;
+
+        padding-left: 5rem;
+    }
+
+    .home-content p {
+        font-size: 2.2rem;
+        padding-top: 1rem;
+        width: 45ch;
+
+    }
+
+    .project-btn .btn {
+        width: 12rem;
+        height: 4rem;
+    }
+
+    .project-btn {
+        padding-top: 5rem;
+        gap: 6rem;
+    }
+
+
 }
 
 @media screen and (min-width: 2160px) {
@@ -865,15 +907,7 @@ footer ul {
         font-size: 4rem;
     }
 
-    .project-btn .btn {
-        width: 12rem;
-        height: 4rem;
-    }
 
-    .project-btn {
-        padding-top: 5rem;
-        gap: 6rem;
-    }
 
     .contact-form h2 {
         font-size: 4rem;
