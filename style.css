@@ -609,6 +609,7 @@ footer ul {
         border-radius: 50%;
         box-shadow: 0 0 25px #8AB6F9,
             0 0 50px #8AB6F9;
+        margin-bottom: 5rem;
     }
 
     .about-content {
@@ -618,7 +619,7 @@ footer ul {
     .about-content h2 {
         text-align: left;
         color: black;
-        font-size: 4.2rem;
+        font-size: 3rem;
     }
 
     .about-content p {
@@ -780,8 +781,7 @@ footer ul {
 
     .home-content {
         width: 41%;
-
-        padding-left: 5rem;
+        padding-left: 10rem;
     }
 
     .home-content p {
@@ -820,12 +820,10 @@ footer ul {
         margin-left: 0;
     }
 
-
-
     .home-content {
         width: 50%;
         margin: 0 auto;
-        padding-left: 8rem;
+        padding-left: 25rem;
     }
 
     .home-content h3 {
@@ -842,6 +840,11 @@ footer ul {
         padding-top: 1rem;
         width: 45ch;
     }
+
+    .img-box {
+        margin-right: 20rem;
+    }
+
 
     .icons {
         margin-left: -22rem;

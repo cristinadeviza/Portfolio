@@ -111,13 +111,8 @@
                         discussion.
                     </p>
                     <div class="project-btn">
-                        <form action="/redirect/demo" method="post" target="_blank">
-                            <button class="demo btn" type="submit">Demo</button>
-                        </form>
-
-                        <form action="/redirect/github" method="post" target="_blank">
-                            <button class="github btn" type="submit">Github</button>
-                        </form>
+                        <button class="demo btn" type="submit">Demo</button>
+                        <button class="github btn" type="submit">Github</button>
                     </div>
                 </div>
 
@@ -183,6 +178,21 @@
             } else {
                 icon.classList.replace("bx-x", "bx-menu");
             }
+        });
+
+
+        // Selectarea butoanelor din proiect
+        const demoButton = document.querySelector('.demo');
+        const githubButton = document.querySelector('.github');
+
+        // Adăugarea evenimentului click pentru butonul Demo
+        demoButton.addEventListener('click', () => {
+            window.open('https://cristina-huddles.netlify.app/', '_blank'); // Redirecționează la demo
+        });
+
+        // Adăugarea evenimentului click pentru butonul Github
+        githubButton.addEventListener('click', () => {
+            window.open('https://github.com/cristinadeviza', '_blank'); // Redirecționează la repo GitHub
         });
     </script>
 </body>
