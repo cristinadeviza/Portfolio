@@ -167,34 +167,51 @@
     <script>
         const menuToggle = document.getElementById("mobile-menu");
         const navbar = document.querySelector(".navbar");
+        const links = document.querySelectorAll(".disappear");
+        const container = document.querySelector("ul");
+        const icon = menuToggle.querySelector("i");
 
         menuToggle.addEventListener("click", () => {
             navbar.classList.toggle("active");
 
             // Schimbă iconița între meniu și închidere
-            const icon = menuToggle.querySelector("i");
             if (navbar.classList.contains("active")) {
                 icon.classList.replace("bx-menu", "bx-x");
+                container.classList.remove("hidden");
             } else {
                 icon.classList.replace("bx-x", "bx-menu");
+                container.classList.add("hidden");
             }
         });
 
+        links.forEach((link) =>
+            link.addEventListener("click", function () {
+                if (navbar.classList.contains("active")) {
+                    container.classList.add("hidden");
+                    icon.classList.replace("bx-x", "bx-menu");
+                    navbar.classList.toggle("active");
+                } else {
+                    container.classList.remove("hidden");
+                    icon.classList.replace("bx-menu", "bx-x");
+                }
+            })
+        );
 
         // Selectarea butoanelor din proiect
-        const demoButton = document.querySelector('.demo');
-        const githubButton = document.querySelector('.github');
+        const demoButton = document.querySelector(".demo");
+        const githubButton = document.querySelector(".github");
 
         // Adăugarea evenimentului click pentru butonul Demo
-        demoButton.addEventListener('click', () => {
-            window.open('https://cristina-huddles.netlify.app/', '_blank'); // Redirecționează la demo
+        demoButton.addEventListener("click", () => {
+            window.open("https://cristina-huddles.netlify.app/", "_blank"); // Redirecționează la demo
         });
 
         // Adăugarea evenimentului click pentru butonul Github
-        githubButton.addEventListener('click', () => {
-            window.open('https://github.com/cristinadeviza', '_blank'); // Redirecționează la repo GitHub
+        githubButton.addEventListener("click", () => {
+            window.open("https://github.com/cristinadeviza", "_blank"); // Redirecționează la repo GitHub
         });
     </script>
+
 </body>
 
 </html>
