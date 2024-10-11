@@ -410,6 +410,44 @@ footer ul {
     margin-top: 2rem;
 }
 
+.cookie-container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #000c24;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding: 2.5rem;
+    z-index: 1000;
+}
+
+.cookie-container p {
+    margin: 0;
+    display: inline-block;
+}
+
+.cookie-btn {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #8AB6F9;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.cookie-btn:hover {
+    background-color: #8AB6F9;
+}
+
+.cookie-container a {
+    font-size: 1.5rem;
+    color: #8AB6F9;
+
+}
+
+
 /* Media Query pentru dispozitive mobile */
 @media screen and (max-width: 768px) {
 
@@ -449,6 +487,9 @@ footer ul {
     .navbar a {
         font-size: 1.5rem;
     }
+
+
+
 }
 
 
@@ -495,6 +536,22 @@ footer ul {
     .project-heading {
         font-size: 3rem;
         padding-top: 7rem;
+    }
+
+    .cookie-container {
+        text-align: center;
+        padding: 2.5rem;
+    }
+
+    .cookie-container p {
+        margin: 0;
+        display: inline-block;
+    }
+
+    .cookie-btn {
+        margin-left: 2rem;
+        margin-top: 1rem;
+        padding: 0.5rem 1rem;
     }
 }
 
@@ -748,13 +805,34 @@ footer ul {
         transition: 0.3s ease;
         font-size: 1.5rem;
     }
+
+    .cookie-container {
+        background-color: #01040f;
+        padding: 5rem;
+        z-index: 1000;
+    }
+
+    .cookie-container p {
+        font-size: 2rem;
+    }
+
+    .cookie-btn {
+        font-size: 2rem;
+        margin-left: 1rem;
+        margin-top: 2rem;
+        padding: 1rem 2rem;
+        background-color: #00246B;
+    }
+
+    .cookie-container a {
+        font-size: 2rem;
+    }
 }
 
 @media screen and (min-width:1440px) {
     .header {
         height: 8rem;
     }
-
 
     .about-content p {
         font-size: 2rem;
@@ -767,7 +845,6 @@ footer ul {
 
     .img-box img {
         width: 100%;
-        /* margin-left: 6rem; */
     }
 
     .home {
@@ -788,7 +865,6 @@ footer ul {
         font-size: 2.2rem;
         padding-top: 1rem;
         width: 45ch;
-
     }
 
     .project-btn .btn {
@@ -800,8 +876,6 @@ footer ul {
         padding-top: 5rem;
         gap: 6rem;
     }
-
-
 }
 
 @media screen and (min-width: 2160px) {
@@ -910,8 +984,6 @@ footer ul {
         font-size: 4rem;
     }
 
-
-
     .contact-form h2 {
         font-size: 4rem;
     }
@@ -940,5 +1012,9 @@ footer ul {
     #input3,
     #input4 {
         margin-bottom: 2rem;
+    }
+
+    .cookie-container {
+        width: 216rem;
     }
 }

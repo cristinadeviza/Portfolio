@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet" />
+
 </head>
 
 <body>
@@ -124,14 +125,14 @@
 
         <section class="contact-form" id="contact">
             <h2 class="contact-me">Contact me</h2>
-            <form action="#">
+            <form action="#" onsubmit="sendEmail(); reset(); return false">
                 <div class="input-box">
-                    <input id="input1" type="text" placeholder="Full Name" />
-                    <input id="input2" type="email" placeholder="Email" />
+                    <input id="input1" type="text" placeholder="Full Name" required />
+                    <input id="input2" type="email" placeholder="Email" required />
                 </div>
                 <div class="input-box">
-                    <input id="input3" type="number" placeholder="Phone Number" />
-                    <input id="input4" type="text" placeholder="Subject" />
+                    <input id="input3" type="number" placeholder="Phone Number" required />
+                    <input id="input4" type="text" placeholder="Subject" required />
                 </div>
                 <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
                 <input type="submit" value="Send Message" class="btn-1" />
@@ -163,6 +164,16 @@
 
         <p class="copyright">© 2024 Cristina | All Rights Reserved</p>
     </footer>
+
+
+    <div id="cookie-consent" class="cookie-container">
+        <p>This website uses cookies to enhance your experience. By continuing, you agree to our <a href="#">cookie
+                policy</a>.</p>
+        <button id="accept-cookies" class="cookie-btn">Accept</button>
+        <button id="decline-cookies" class="cookie-btn">Decline</button>
+    </div>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 
     <script>
         const menuToggle = document.getElementById("mobile-menu");
@@ -210,6 +221,44 @@
         githubButton.addEventListener("click", () => {
             window.open("https://github.com/cristinadeviza", "_blank"); // Redirecționează la repo GitHub
         });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const cookieContainer = document.getElementById('cookie-consent');
+            const acceptCookiesBtn = document.getElementById('accept-cookies');
+            const declineCookiesBtn = document.getElementById('decline-cookies');
+
+            if (!localStorage.getItem('cookiesAccepted')) {
+                cookieContainer.style.display = 'block';
+            }
+
+            acceptCookiesBtn.addEventListener('click', function () {
+                localStorage.setItem('cookiesAccepted', 'true');
+                cookieContainer.style.display = 'none';
+            });
+
+            declineCookiesBtn.addEventListener('click', function () {
+                cookieContainer.style.display = 'none';
+            });
+        });
+
+        function sendEmail() {
+            Email.send({
+                Host: "smtp.gmail.com",
+                Username: "parfene.dumitru.98@gmail.com",
+                Password: "dahnovici1998",
+                To: 'deviza.cristina.98@gmail.com',
+                From: document.getElementById("email").value,
+                Subject: "New Contact From Enquiry",
+                Body: `
+                    Name: ${document.getElementById("input1").value}
+                    <br>Email: ${document.getElementById("input2").value}
+                    <br>Phone Number: ${document.getElementById("input3").value}
+                    <br>Subject: ${document.getElementById("input4").value}
+                    <br>Your Message: ${document.getElementById("message").value}
+        `
+            }).then(
+                message => alert("Message Sent Successfully"));
+        }
     </script>
 
 </body>
