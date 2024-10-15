@@ -1030,6 +1030,13 @@ footer ul {
         margin-bottom: 2rem;
     }
 
+    #result {
+
+        height: 2rem;
+        font-size: 1.5rem;
+        bottom: 80rem;
+    }
+
     .cookie-container {
         width: 216rem;
     }
