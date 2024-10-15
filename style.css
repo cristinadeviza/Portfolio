@@ -21,6 +21,22 @@ html {
 
 /* Mobile Version */
 
+#result {
+
+    color: #00246B;
+    width: 20rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 5px;
+    font-size: 1rem;
+    position: relative;
+    bottom: 73rem;
+    font-weight: bold;
+}
+
 p {
     margin: 0;
 }
