@@ -1,291 +1,340 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portofolio</title>
     <!-- <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" /> -->
-    <link rel="stylesheet" href="style.css">
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-</head>
-
-<body>
-
-
+  <body>
     <header class="header">
-        <a href="#" class="logo"><span id="logo1">Cristina Deviza</span> </a>
+      <a href="#" class="logo"><span id="logo1">Cristina Deviza</span> </a>
 
-        <!-- Butonul pentru meniul hamburger -->
-        <div class="menu-toggle" id="mobile-menu">
-            <i class="bx bx-menu"></i>
-        </div>
+      <!-- Butonul pentru meniul hamburger -->
+      <div class="menu-toggle" id="mobile-menu">
+        <i class="bx bx-menu"></i>
+      </div>
 
-        <nav class="navbar">
-            <ul class="">
-                <li><a class="disappear" href="#home">Home</a></li>
-                <li><a class="disappear" href="#about">About</a></li>
-                <li><a class="disappear" href="#project">Projects</a></li>
-                <li><a class="disappear" href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+      <nav class="navbar">
+        <ul class="">
+          <li><a class="disappear" href="#home">Home</a></li>
+          <li><a class="disappear" href="#about">About</a></li>
+          <li><a class="disappear" href="#project">Projects</a></li>
+          <li><a class="disappear" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-        <section class="home" id="home">
-            <div class="home-content">
-                <h3>Hi!</h3>
-                <h1>I'm <span class="name">Cristina</span> a Web Developer</h1>
-                <p>
-                    I’m an IT enthusiast and aspiring software developer currently
-                    studying in the field of Information Technology. I have a strong
-                    passion for web and software development, and my curiosity drives me
-                    to continuously explore new technologies and trends in this dynamic
-                    industry.
-                </p>
-                <div class="btn-box">
-                    <a href="#section4" class="btn-1">Projects </a>
-                    <a href="#section3" class="btn-2">Contacts </a>
+      <section class="home" id="home">
+        <div class="home-content">
+          <h3>Hi!</h3>
+          <h1>I'm <span class="name">Cristina</span> a Web Developer</h1>
+          <p>
+            I’m an IT enthusiast and aspiring software developer currently
+            studying in the field of Information Technology. I have a strong
+            passion for web and software development, and my curiosity drives me
+            to continuously explore new technologies and trends in this dynamic
+            industry.
+          </p>
+          <div class="btn-box">
+            <a href="#project" class="btn-1">Projects </a>
+            <a href="#contact" class="btn-2">Contacts </a>
+          </div>
+        </div>
+        <div class="img-box">
+          <img src="img.webp" alt="image" />
+        </div>
+      </section>
 
-                </div>
+      <section class="about" id="about">
+        <div class="about-img">
+          <img src="img.jpg" alt="image" />
+        </div>
+        <div class="about-content">
+          <h2 class="heading">About Me</h2>
+          <p>
+            Hello! I’m Cristina, and I originally studied accounting but am
+            currently in the process of transitioning into the exciting field of
+            Information Technology. While my background is in accounting, where
+            I honed skills such as analytical thinking, attention to detail, and
+            data management, I’ve found a new passion in technology that has
+            inspired me to pursue a career in IT.
+            <br />
+            <br />
+            Why IT? My interest in technology grew over time as I realized the
+            impact it has on every industry, including accounting. I was
+            fascinated by how software and digital tools could simplify and
+            enhance processes. This curiosity led me to start learning
+            programming and exploring the world of software development. The
+            challenge of solving technical problems and creating innovative
+            solutions has motivated me to recalibrate my career path towards IT.
+            <br />
+            <br />
+            I am actively building my IT skillset, focusing on programming
+            languages like HTML, CSS, and Python, and learning about backend
+            development.
+          </p>
+
+          <div class="icons">
+            <i class="bx bxl-html5"></i>
+            <i class="bx bxs-file-css"></i>
+            <i class="bx bxl-python"></i>
+            <i class="bx bxl-javascript"></i>
+          </div>
+        </div>
+      </section>
+
+      <section class="project" id="project">
+        <div class="pr">
+          <h2 class="project-heading">Projects</h2>
+        </div>
+        <div class="project-content">
+          <div class="project-text" id="project-text">
+            <p>
+              Huddle re-imagines the way we build communities. You have a voice,
+              but so does your audience. Create conections with your users as
+              you engage in genuine discussion.Huddle re-imagines the way we
+              build communities. You have a voice, but so does your audience.
+              Create conections with your users as you engage in genuine
+              discussion.
+            </p>
+            <div class="project-btn">
+              <button class="demo btn" type="submit">Demo</button>
+              <button class="github btn" type="submit">Github</button>
             </div>
-            <div class="img-box">
-                <img src="img.webp" alt="image" />
-            </div>
-        </section>
+          </div>
 
-        <section class="about" id="about">
-            <div class="about-img">
-                <img src="img.jpg" alt="image" />
-            </div>
-            <div class="about-content">
-                <h2 class="heading">About Me</h2>
-                <p>
-                    Hello! I’m Cristina, and I originally studied accounting but am
-                    currently in the process of transitioning into the exciting field of
-                    Information Technology. While my background is in accounting, where
-                    I honed skills such as analytical thinking, attention to detail, and
-                    data management, I’ve found a new passion in technology that has
-                    inspired me to pursue a career in IT.
-                    <br />
-                    <br />
-                    Why IT? My interest in technology grew over time as I realized the
-                    impact it has on every industry, including accounting. I was
-                    fascinated by how software and digital tools could simplify and
-                    enhance processes. This curiosity led me to start learning
-                    programming and exploring the world of software development. The
-                    challenge of solving technical problems and creating innovative
-                    solutions has motivated me to recalibrate my career path towards IT.
-                    <br />
-                    <br />
-                    I am actively building my IT skillset, focusing on programming
-                    languages like HTML, CSS, and Python, and learning about backend
-                    development.
-                </p>
+          <div class="img">
+            <img src="huddle.png" id="huddle-img" alt="" />
+          </div>
+        </div>
+      </section>
 
-                <div class="icons">
-                    <i class="bx bxl-html5"></i>
-                    <i class="bx bxs-file-css"></i>
-                    <i class="bx bxl-python"></i>
-                    <i class="bx bxl-flask"></i>
-                </div>
-
-            </div>
-        </section>
-
-        <section class="project" id="project">
-            <div class="pr">
-                <h2 class="project-heading">Projects</h2>
-            </div>
-            <div class="project-content">
-                <div class="project-text" id="project-text">
-                    <p>
-                        Huddle re-imagines the way we build communities. You have a voice,
-                        but so does your audience. Create conections with your users as
-                        you engage in genuine discussion.Huddle re-imagines the way we
-                        build communities. You have a voice, but so does your audience.
-                        Create conections with your users as you engage in genuine
-                        discussion.
-                    </p>
-                    <div class="project-btn">
-                        <button class="demo btn" type="submit">Demo</button>
-                        <button class="github btn" type="submit">Github</button>
-                    </div>
-                </div>
-
-                <div class="img">
-                    <img src="huddle.png" id="huddle-img" alt="" />
-                </div>
-            </div>
-        </section>
-
-        <section class="contact-form" id="contact">
-            <h2 class="contact-me">Contact me</h2>
-            <form method="POST" id="form">
-                <input type="hidden" name="access_key" value="a4bbdf33-f030-4ab4-8bb9-e200e212453d">
-                <div class="input-box">
-                    <input id="input1" type="text" placeholder="Full Name" name="name" required />
-                    <input id="input2" type="email" placeholder="Email" name="email" required />
-                </div>
-                <div class="input-box">
-                    <input id="input3" type="number" placeholder="Phone Number" name="number" required />
-                    <input id="input4" type="text" placeholder="Subject" name="subject" required />
-                </div>
-                <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-                <input type="submit" value="Send Message" class="btn-1" />
-                <div id="result"></div>
-            </form>
-        </section>
+      <section class="contact-form" id="contact">
+        <h2 class="contact-me">Contact me</h2>
+        <form method="POST" id="form">
+          <input
+            type="hidden"
+            name="access_key"
+            value="a4bbdf33-f030-4ab4-8bb9-e200e212453d"
+          />
+          <div class="input-box">
+            <input
+              id="input1"
+              type="text"
+              placeholder="Full Name"
+              name="name"
+              required
+            />
+            <input
+              id="input2"
+              type="email"
+              placeholder="Email"
+              name="email"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <input
+              id="input3"
+              type="number"
+              placeholder="Phone Number"
+              name="number"
+              required
+            />
+            <input
+              id="input4"
+              type="text"
+              placeholder="Subject"
+              name="subject"
+              required
+            />
+          </div>
+          <textarea
+            name="message"
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Your Message"
+          ></textarea>
+          <input type="submit" value="Send Message" class="btn-1" />
+          <div id="result"></div>
+        </form>
+      </section>
     </main>
 
     <footer class="footer">
-        <div class="social">
-            <a href=""><i class="bx bxl-linkedin-square"></i></a>
-            <a href=""><i class="bx bxl-github"></i></a>
-        </div>
+      <div class="social">
+        <a href=""><i class="bx bxl-linkedin-square"></i></a>
+        <a href=""><i class="bx bxl-github"></i></a>
+      </div>
 
-        <ul class="list">
-            <li>
-                <a href="#about">About Me</a>
-            </li>
+      <ul class="list">
+        <li>
+          <a href="#about">About Me</a>
+        </li>
 
-            <li>
-                <a href="#project">Projects</a>
-            </li>
+        <li>
+          <a href="#project">Projects</a>
+        </li>
 
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
 
-            <li><a href="#">Privacy Policy</a></li>
-        </ul>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
 
-        <p class="copyright">© 2024 Cristina | All Rights Reserved</p>
+      <p class="copyright">© 2024 Cristina | All Rights Reserved</p>
     </footer>
 
-
     <div id="cookie-consent" class="cookie-container">
-        <p>This website uses cookies to enhance your experience. By continuing, you agree to our <a href="#">cookie
-                policy</a>.</p>
-        <button id="accept-cookies" class="cookie-btn">Accept</button>
-        <button id="decline-cookies" class="cookie-btn">Decline</button>
+      <p>
+        This website uses cookies to enhance your experience. By continuing, you
+        agree to our <a href="#">cookie policy</a>.
+      </p>
+      <button id="accept-cookies" class="cookie-btn">Accept</button>
+      <button id="decline-cookies" class="cookie-btn">Decline</button>
     </div>
 
     <script src="https://smtpjs.com/v3/smtp.js"></script>
 
     <script>
-        const menuToggle = document.getElementById("mobile-menu");
-        const navbar = document.querySelector(".navbar");
-        const links = document.querySelectorAll(".disappear");
-        const container = document.querySelector("ul");
-        const icon = menuToggle.querySelector("i");
-        const form = document.getElementById('form');
-        const result = document.getElementById('result');
+      const menuToggle = document.getElementById("mobile-menu");
+      const navbar = document.querySelector(".navbar");
+      const links = document.querySelectorAll(".disappear");
+      const container = document.querySelector("ul");
+      const icon = menuToggle.querySelector("i");
+      const form = document.getElementById("form");
+      const result = document.getElementById("result");
 
-        menuToggle.addEventListener("click", () => {
+      menuToggle.addEventListener("click", () => {
+        navbar.classList.toggle("active");
+
+        // Schimbă iconița între meniu și închidere
+        if (navbar.classList.contains("active")) {
+          icon.classList.replace("bx-menu", "bx-x");
+          container.classList.remove("hidden");
+        } else {
+          icon.classList.replace("bx-x", "bx-menu");
+          container.classList.add("hidden");
+        }
+      });
+
+      links.forEach((link) =>
+        link.addEventListener("click", function () {
+          if (navbar.classList.contains("active")) {
+            container.classList.add("hidden");
+            icon.classList.replace("bx-x", "bx-menu");
             navbar.classList.toggle("active");
+          } else {
+            container.classList.remove("hidden");
+            icon.classList.replace("bx-menu", "bx-x");
+          }
+        })
+      );
 
-            // Schimbă iconița între meniu și închidere
-            if (navbar.classList.contains("active")) {
-                icon.classList.replace("bx-menu", "bx-x");
-                container.classList.remove("hidden");
+      // Selectarea butoanelor din proiect
+      const demoButton = document.querySelector(".demo");
+      const githubButton = document.querySelector(".github");
+
+      // Adăugarea evenimentului click pentru butonul Demo
+      demoButton.addEventListener("click", () => {
+        window.open("https://cristina-huddles.netlify.app/", "_blank"); // Redirecționează la demo
+      });
+
+      // Adăugarea evenimentului click pentru butonul Github
+      githubButton.addEventListener("click", () => {
+        window.open("https://github.com/cristinadeviza", "_blank"); // Redirecționează la repo GitHub
+      });
+
+      document.addEventListener("DOMContentLoaded", function () {
+        const cookieContainer = document.getElementById("cookie-consent");
+        const acceptCookiesBtn = document.getElementById("accept-cookies");
+        const declineCookiesBtn = document.getElementById("decline-cookies");
+
+        if (!localStorage.getItem("cookiesAccepted")) {
+          cookieContainer.style.display = "block";
+        }
+
+        acceptCookiesBtn.addEventListener("click", function () {
+          localStorage.setItem("cookiesAccepted", "true");
+          cookieContainer.style.display = "none";
+        });
+
+        declineCookiesBtn.addEventListener("click", function () {
+          cookieContainer.style.display = "none";
+        });
+      });
+
+      //   Formdata api
+
+      form.addEventListener("submit", function (e) {
+        const formData = new FormData(form);
+        e.preventDefault();
+
+        const object = Object.fromEntries(formData);
+        const json = JSON.stringify(object);
+        result.style.display = "flex";
+        result.innerHTML = "Please wait...";
+
+        fetch("https://api.web3forms.com/submit", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json",
+          },
+          body: json,
+        })
+          .then(async (response) => {
+            let json = await response.json();
+            if (response.status == 200) {
+              result.innerHTML = json.message;
             } else {
-                icon.classList.replace("bx-x", "bx-menu");
-                container.classList.add("hidden");
+              result.innerHTML = json.message;
             }
+          })
+          .catch((error) => {
+            console.log(error);
+            result.innerHTML = "Something went wrong!";
+          })
+          .then(function () {
+            form.reset();
+            setTimeout(() => {
+              result.style.display = "none";
+            }, 3000);
+          });
+      });
+
+      document
+        .getElementById("linkedin")
+        .addEventListener("click", function (event) {
+          event.preventDefault(); // oprește comportamentul implicit
+          window.open(
+            "https://www.linkedin.com/in/cristina-deviza-704375271/",
+            "_blank"
+          ); // link către LinkedIn
         });
 
-        links.forEach((link) =>
-            link.addEventListener("click", function () {
-                if (navbar.classList.contains("active")) {
-                    container.classList.add("hidden");
-                    icon.classList.replace("bx-x", "bx-menu");
-                    navbar.classList.toggle("active");
-                } else {
-                    container.classList.remove("hidden");
-                    icon.classList.replace("bx-menu", "bx-x");
-                }
-            })
-        );
-
-        // Selectarea butoanelor din proiect
-        const demoButton = document.querySelector(".demo");
-        const githubButton = document.querySelector(".github");
-
-        // Adăugarea evenimentului click pentru butonul Demo
-        demoButton.addEventListener("click", () => {
-            window.open("https://cristina-huddles.netlify.app/", "_blank"); // Redirecționează la demo
+      document
+        .getElementById("github")
+        .addEventListener("click", function (event) {
+          event.preventDefault(); // oprește comportamentul implicit
+          window.open("https://github.com/cristinadeviza", "_blank"); // link către GitHub
         });
-
-        // Adăugarea evenimentului click pentru butonul Github
-        githubButton.addEventListener("click", () => {
-            window.open("https://github.com/cristinadeviza", "_blank"); // Redirecționează la repo GitHub
-        });
-
-        document.addEventListener('DOMContentLoaded', function () {
-            const cookieContainer = document.getElementById('cookie-consent');
-            const acceptCookiesBtn = document.getElementById('accept-cookies');
-            const declineCookiesBtn = document.getElementById('decline-cookies');
-
-            if (!localStorage.getItem('cookiesAccepted')) {
-                cookieContainer.style.display = 'block';
-            }
-
-            acceptCookiesBtn.addEventListener('click', function () {
-                localStorage.setItem('cookiesAccepted', 'true');
-                cookieContainer.style.display = 'none';
-            });
-
-            declineCookiesBtn.addEventListener('click', function () {
-                cookieContainer.style.display = 'none';
-            });
-        });
-
-        //   Formdata api
-
-        form.addEventListener('submit', function (e) {
-            const formData = new FormData(form);
-            e.preventDefault();
-
-            const object = Object.fromEntries(formData);
-            const json = JSON.stringify(object);
-            result.style.display = "flex";
-            result.innerHTML = "Please wait..."
-
-            fetch('https://api.web3forms.com/submit', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Accept': 'application/json'
-                },
-                body: json
-            })
-                .then(async (response) => {
-                    let json = await response.json();
-                    if (response.status == 200) {
-                        result.innerHTML = json.message;
-                    } else {
-                        result.innerHTML = json.message;
-                    }
-                })
-                .catch(error => {
-                    console.log(error);
-                    result.innerHTML = "Something went wrong!";
-                })
-                .then(function () {
-                    form.reset();
-                    setTimeout(() => {
-                        result.style.display = "none";
-                    }, 3000);
-                });
-        });
-
     </script>
-
-</body>
-
+  </body>
 </html>
